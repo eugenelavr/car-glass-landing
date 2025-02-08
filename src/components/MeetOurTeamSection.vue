@@ -5,9 +5,7 @@
     color="secondary"
     min-height="800"
   >
-    <div class="text-h4 font-weight-bold">
-      Meet Our Team
-    </div>
+    <div class="text-h4 font-weight-bold">Meet Our Team</div>
 
     <div class="text-body-1 text-medium-emphasis mt-5">
       Discover more about our high performing team.
@@ -22,14 +20,8 @@
           cols="12"
           md="4"
         >
-          <v-card
-            class="bg-white rounded-t-xl pb-5"
-            flat
-          >
-            <v-img
-              class="w-100 rounded-t-xl"
-              :src="person.image"
-            />
+          <v-card class="bg-white rounded-t-xl pb-5" flat>
+            <v-img class="w-100 rounded-t-xl" :src="person.image" />
 
             <div class="mt-3 text-body-1">
               {{ person.name }}
@@ -50,27 +42,27 @@
 </template>
 
 <script setup>
-  const team = [
-    {
-      image: './assets/team/person1.png',
-      name: 'CHRISTINA HAWKINS',
-      title: 'Head of SEO',
-      description:
-        'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
-    },
-    {
-      image: './assets/team/person2.png',
-      name: 'CHRISTINA HAWKINS',
-      title: 'Head of SEO',
-      description:
-        'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
-    },
-    {
-      image: './assets/team/person3.png',
-      name: 'CHRISTINA HAWKINS',
-      title: 'Head of SEO',
-      description:
-        'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
-    },
-  ]
+const team = [
+  {
+    image: 'src/assets/team/person1.png',
+    name: 'CHRISTINA HAWKINS',
+    title: 'Head of SEO',
+    description:
+      'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
+  },
+  {
+    image: 'src/assets/team/person2.png',
+    name: 'CHRISTINA HAWKINS',
+    title: 'Head of SEO',
+    description:
+      'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
+  },
+  {
+    image: 'src/assets/team/person3.png',
+    name: 'CHRISTINA HAWKINS',
+    title: 'Head of SEO',
+    description:
+      'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
+  },
+];
 </script>

@@ -6,15 +6,16 @@
       max-height="50"
       max-width="160"
       :src="item"
+      style="background-color: #ffffff"
     />
   </v-sheet>
 </template>
 
 <script setup>
-  const banners = [
-    '/assets/banner/csswinner.png',
-    '/assets/banner/cssawards.png',
-    '/assets/banner/fwa.png',
-    '/assets/banner/cssdesignawards.png',
-  ]
+import bmw from '@/assets/banner/bmw_logo.png';
+import audi from '@/assets/banner/audi_logo.png';
+import vw from '@/assets/banner/vw_logo.png';
+import ford from '@/assets/banner/ford_logo.png';
+
+const banners = [bmw, audi, vw, ford];
 </script>

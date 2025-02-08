@@ -1,8 +1,6 @@
 <template>
   <v-sheet id="features" class="text-center py-16">
-    <div class="text-h4 font-weight-medium">
-      Amazing Features
-    </div>
+    <div class="text-h4 font-weight-medium">Amazing Features</div>
 
     <div class="text-body-1 text-medium-emphasis my-5">
       Quis autem velis ets reprehender net etid quiste voluptate.
@@ -37,42 +35,42 @@
 </template>
 
 <script setup>
-  const features = [
-    {
-      icon: '/assets/features/support.png',
-      title: 'Support 24/7',
-      description:
-        'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
-    },
-    {
-      icon: '/assets/features/user.png',
-      title: 'User Friendly',
-      description:
-        'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
-    },
-    {
-      icon: '/assets/features/bell.png',
-      title: 'Notifications',
-      description:
-        'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
-    },
-    {
-      icon: '/assets/features/accessibility.png',
-      title: 'Accessibility',
-      description:
-        'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
-    },
-    {
-      icon: '/assets/features/control.png',
-      title: 'Control',
-      description:
-        'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
-    },
-    {
-      icon: '/assets/features/chat.png',
-      title: 'Chat With Friends',
-      description:
-        'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
-    },
-  ]
+const features = [
+  {
+    icon: 'src/assets/features/support.png',
+    title: 'Support 24/7',
+    description:
+      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+  },
+  {
+    icon: 'src/assets/features/user.png',
+    title: 'User Friendly',
+    description:
+      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+  },
+  {
+    icon: 'src/assets/features/bell.png',
+    title: 'Notifications',
+    description:
+      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+  },
+  {
+    icon: 'src/assets/features/accessibility.png',
+    title: 'Accessibility',
+    description:
+      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+  },
+  {
+    icon: 'src/assets/features/control.png',
+    title: 'Control',
+    description:
+      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+  },
+  {
+    icon: 'src/assets/features/chat.png',
+    title: 'Chat With Friends',
+    description:
+      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+  },
+];
 </script>

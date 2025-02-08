@@ -1,10 +1,13 @@
 <template>
   <v-app-bar>
     <template #title>
-      <div class="d-inline-flex align-center text-h4 font-weight-bold my-5 text-primary">
-        <v-icon icon="$vuetify" start />
+      <div
+        class="d-inline-flex align-center text-h4 font-weight-bold my-5 text-primary"
+      >
+        <!-- <v-icon icon="$vuetify" start />
 
-        Landing Page
+        Landing Page -->
+        <v-img :src="logo" width="200" />
       </div>
     </template>
 
@@ -25,13 +28,15 @@
 </template>
 
 <script setup>
-  const menu = [
-    'Home',
-    'About',
-    'Testimonials',
-    'Work',
-    'Team',
-    'Features',
-    'Pricing',
-  ]
+import logo from '@/assets/logo/logo.png';
+
+const menu = [
+  'Головна',
+  'Про нас',
+  'Відгуки',
+  'Роботи',
+  'Команда',
+  'Сервіс',
+  'Ціни',
+];
 </script>

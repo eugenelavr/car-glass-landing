@@ -1,8 +1,5 @@
 <template>
-  <v-sheet
-    class="py-16"
-    color="secondary"
-  >
+  <v-sheet class="py-16" color="secondary">
     <v-container>
       <v-row align="center">
         <v-col cols="12" md="7">
@@ -20,7 +17,7 @@
               :class="{ 'bg-grey-lighten-5 elevation-5 rounded': index === 0 }"
             >
               <template #prepend>
-                <img :src="item.icon">
+                <img :src="item.icon" />
               </template>
 
               <template #title>
@@ -28,14 +25,16 @@
               </template>
 
               <template #subtitle>
-                <span class="text-body-1 text-grey-darken-3">{{ item.subtitle }}</span>
+                <span class="text-body-1 text-grey-darken-3">{{
+                  item.subtitle
+                }}</span>
               </template>
             </v-list-item>
           </v-list>
         </v-col>
 
         <v-col cols="12" md="5">
-          <v-img src="/assets/customize_bg.png" />
+          <v-img :src="customizeImg" />
         </v-col>
       </v-row>
     </v-container>
@@ -43,23 +42,25 @@
 </template>
 
 <script setup>
-  const customize = [
-    {
-      icon: './assets/customize.png',
-      title: 'Customize your workflow',
-      subtitle:
-        'Manage any process and be ready to address any challenge with total ease.',
-    },
-    {
-      icon: './assets/onboarding.png',
-      title: 'Easy onboarding, fast adoption.',
-      subtitle:
-        'With Square getting your team on board is as simple as sending an email.',
-    },
-    {
-      icon: './assets/retention.png',
-      title: 'Improve subscriber retention',
-      subtitle:
-        'Analyze customers by region, discounts and more and put a plan in place.',
-    },
-  ]; </script>
+import customizeIcon from '@/assets/customize.png';
+const customize = [
+  {
+    icon: 'src/assets/customize.png',
+    title: 'Customize your workflow',
+    subtitle:
+      'Manage any process and be ready to address any challenge with total ease.',
+  },
+  {
+    icon: 'src/assets/onboarding.png',
+    title: 'Easy onboarding, fast adoption.',
+    subtitle:
+      'With Square getting your team on board is as simple as sending an email.',
+  },
+  {
+    icon: 'src/assets/retention.png',
+    title: 'Improve subscriber retention',
+    subtitle:
+      'Analyze customers by region, discounts and more and put a plan in place.',
+  },
+];
+</script>

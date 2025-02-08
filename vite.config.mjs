@@ -3,6 +3,7 @@ import Components from 'unplugin-vue-components/vite'
 import Vue from '@vitejs/plugin-vue'
 import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import ViteFonts from 'unplugin-fonts/vite'
+import viteImagemin from 'vite-plugin-imagemin'
 
 // Utilities
 import { defineConfig } from 'vite'
@@ -23,6 +24,14 @@ export default defineConfig({
           name: 'Roboto',
           styles: 'wght@100;300;400;500;700;900',
         }],
+      },
+    }),
+    viteImagemin({
+      gifsicle: { optimizationLevel: 3 },
+      mozjpeg: { quality: 75 },
+      optipng: { optimizationLevel: 5 },
+      svgo: {
+        plugins: [{ name: 'removeViewBox', active: false }],
       },
     }),
   ],

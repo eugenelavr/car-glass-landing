@@ -1,14 +1,10 @@
 <template>
-  <v-sheet
-    id="about"
-    class="py-16 text-center"
-    color="secondary"
-  >
-    <div class="text-h4 font-weight-bold">
-      What We Do
-    </div>
+  <v-sheet id="about" class="py-16 text-center" color="secondary">
+    <div class="text-h4 font-weight-bold">Що ми робимо</div>
 
-    <div class="text-body-1 font-weight-regular mt-3 text-medium-emphasis mb-12">
+    <div
+      class="text-body-1 font-weight-regular mt-3 text-medium-emphasis mb-12"
+    >
       Discover how our amazing team can help your business.
     </div>
 
@@ -21,7 +17,7 @@
           cols="12"
           md="4"
         >
-          <img :src="item.icon">
+          <img :src="item.icon" />
 
           <div class="text-h6 mt-1">
             {{ item.title }}
@@ -37,24 +33,24 @@
 </template>
 
 <script setup>
-  const whatWeDo = [
-    {
-      icon: './assets/what/analytics.png',
-      title: 'Google Analitycs',
-      description:
-        'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
-    },
-    {
-      icon: './assets/what/awareness.png',
-      title: 'Brand Awareness',
-      description:
-        'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
-    },
-    {
-      icon: './assets/what/design.png',
-      title: 'Graphic Design',
-      description:
-        'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
-    },
-  ]
+const whatWeDo = [
+  {
+    icon: 'src/assets/what/analytics.png',
+    title: 'Google Analitycs',
+    description:
+      'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+  },
+  {
+    icon: 'src/assets/what/awareness.png',
+    title: 'Brand Awareness',
+    description:
+      'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+  },
+  {
+    icon: 'src/assets/what/design.png',
+    title: 'Graphic Design',
+    description:
+      'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+  },
+];
 </script>

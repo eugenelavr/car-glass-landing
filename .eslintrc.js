@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   root: true,
   env: {
     node: true,
@@ -6,8 +6,12 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-recommended',
     'standard',
+    'eslint:recommended',
+    'plugin:vue/vue3-recommended',
+    'prettier',
   ],
   rules: {
+    'prettier/prettier': ['error', { singleQuote: true }],
     'no-var': 'error',
     // allow paren-less arrow functions
     'arrow-parens': ['error', 'as-needed'],
