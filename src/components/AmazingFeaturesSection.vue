@@ -1,9 +1,9 @@
 <template>
   <v-sheet id="features" class="text-center py-16">
-    <div class="text-h4 font-weight-medium">Amazing Features</div>
+    <div class="text-h4 font-weight-medium">Що команда <span style="color: #298abe">ProfiGlass</span> пропонує?</div>
 
     <div class="text-body-1 text-medium-emphasis my-5">
-      Quis autem velis ets reprehender net etid quiste voluptate.
+      Ознайомтесь з нашими дивовижними функціями, які зроблять ремонт вашого дзеркала максимально комфортним та вигідним.
     </div>
 
     <v-container>
@@ -37,40 +37,40 @@
 <script setup>
 const features = [
   {
-    icon: 'src/assets/features/support.png',
-    title: 'Support 24/7',
+    icon: 'src/assets/features/bell.png',
+    title: 'Експрес-ремонт',
     description:
-      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+      'Ми розуміємо, як важливо для вас швидко відновити дзеркало, тому пропонуємо послугу експрес-ремонту, який займе всього кілька годин.',
+  },
+  {
+    icon: 'src/assets/features/support.png',
+    title: 'Сертифіковані матеріали',
+    description:
+      'Ми використовуємо тільки високоякісні матеріали від перевірених виробників, що гарантує довговічність та надійність вашого дзеркала..',
   },
   {
     icon: 'src/assets/features/user.png',
-    title: 'User Friendly',
+    title: 'Досвідчені майстри',
     description:
-      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
-  },
-  {
-    icon: 'src/assets/features/bell.png',
-    title: 'Notifications',
-    description:
-      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+      'Наші майстри мають багаторічний досвід роботи з різними видами автомобільних дзеркал та знають всі тонкощі їх ремонту nihis.',
   },
   {
     icon: 'src/assets/features/accessibility.png',
-    title: 'Accessibility',
+    title: 'Гарантія на всі види робіт',
     description:
-      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+      'Ми впевнені в якості нашої роботи, тому надаємо гарантію на всі види послуг з ремонту дзеркал.',
   },
   {
     icon: 'src/assets/features/control.png',
-    title: 'Control',
+    title: 'Виїзд майстра',
     description:
-      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+      'Для вашої зручності ми пропонуємо послугу виїзду майстра до вас додому або в офіс.',
   },
   {
     icon: 'src/assets/features/chat.png',
-    title: 'Chat With Friends',
+    title: 'Гнучка система знижок',
     description:
-      'Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.',
+      'Для постійних клієнтів та при комплексному ремонті ми пропонуємо гнучку систему знижок.',
   },
 ];
 </script>

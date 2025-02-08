@@ -6,12 +6,11 @@
 
         <v-col cols="12" md="7">
           <div class="text-h4">
-            Discover how we can help you to group your business fast
+            Дізнайтеся, як ми допоможемо повернути дзеркала вашого авто до ідеального стану!
           </div>
 
           <div class="text-body-1 text-medium-emphasis my-5">
-            Venis demo enim ipsam voluptatem quia voluptas sit aspernatur netsum
-            lorem fugit, seditum netis velas matrix net nesciunt
+            Ми спеціалізуємося на професійному ремонті автодзеркал, що допомагає заощадити ваші кошти та час. Забудьте про заміну – відновимо якість швидко та ефективно!t
           </div>
 
           <div
@@ -25,11 +24,11 @@
           </div>
 
           <v-btn
-            color="primary"
+            style="background-color: #298abe; color: #ffffff"
             flat
             height="55"
             rounded
-            text="Discover More"
+            text="Дізнатися більше"
           />
         </v-col>
       </v-row>
@@ -40,8 +39,8 @@
 <script setup>
 import discoverImg from '@/assets/discover_bg.png';
 const discover = [
-  'Quias netus magni netsum eos qui ratione sequi',
-  'Venis ratione sequi netus enim quia tempor magne',
-  'Venis ratione sequi netus enim quia tempor magne',
+  'Видалення подряпин та потертостей – повертаємо дзеркалам ідеальну прозорість.',
+  'Ремонт тріщин та відколів – без необхідності заміни деталей.',
+  'Нанесення захисного покриття – запобігає новим пошкодженням та відблискам',
 ];
 </script>

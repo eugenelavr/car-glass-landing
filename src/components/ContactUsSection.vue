@@ -1,14 +1,14 @@
 <template>
   <v-sheet
     class="text-center py-16"
-    color="primary"
+    style="background-color: #298abe; color: #ffffff;"
   >
     <div class="text-white text-h4 font-weight-medium">
-      Contact Us
+      Зв'яжіться з нами
     </div>
 
     <div class="text-center text-body-1 mb-15">
-      Have any queries? Get in touch today.
+      Якщо у вас є питання, зв'яжіться з нами сьогодні.
     </div>
 
     <v-container>
@@ -18,7 +18,7 @@
             bg-color="transparent"
             flat
             hide-details
-            label="Your Name*"
+            label="Ваше ім'я*"
             single-line
             variant="outlined"
           />
@@ -29,7 +29,7 @@
             bg-color="transparent"
             flat
             hide-details
-            label="Email Address*"
+            label="Ваша електронна пошта*"
             single-line
             variant="outlined"
           />
@@ -40,7 +40,7 @@
             bg-color="transparent"
             flat
             hide-details
-            label="Phone Number*"
+            label="Номер телефону*"
             single-line
             variant="outlined"
           />
@@ -51,7 +51,7 @@
             bg-color="transparent"
             flat
             hide-details
-            label="Option*"
+            label="Вид послуги*"
             single-line
             variant="outlined"
           />
@@ -62,7 +62,7 @@
             bg-color="transparent"
             flat
             hide-details
-            label="Your Message..."
+            label="Ваше повідомлення..."
             lines="4"
             variant="outlined"
           />
@@ -72,10 +72,10 @@
 
     <v-btn
       class="px-10 text-body-1"
-      color="accent"
+      color="white"
       flat
       height="55"
-      text="GET IN TOUCH"
+      text="ЗВ'ЯЖІТЬСЯ"
     />
   </v-sheet>
 </template>

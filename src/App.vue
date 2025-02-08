@@ -11,8 +11,6 @@
 
       <DiscoverHelp />
 
-      <CustomizeSection />
-
       <FunFactsSection />
 
       <WhatPeopleSaySection />
@@ -21,11 +19,7 @@
 
       <MeetOurTeamSection />
 
-      <AwardWinningSection />
-
       <AmazingFeaturesSection />
-
-      <PricingSection />
 
       <FAQSection />
 

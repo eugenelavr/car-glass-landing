@@ -5,10 +5,10 @@
     color="secondary"
     min-height="800"
   >
-    <div class="text-h4 font-weight-bold">Meet Our Team</div>
+    <div class="text-h4 font-weight-bold">Команда <span style="color: #298abe">ProfiGlass</span></div>
 
     <div class="text-body-1 text-medium-emphasis mt-5">
-      Discover more about our high performing team.
+      Дізнайтеся більше про нашу високопрофесійну команду.
     </div>
 
     <v-container>
@@ -45,24 +45,24 @@
 const team = [
   {
     image: 'src/assets/team/person1.png',
-    name: 'CHRISTINA HAWKINS',
-    title: 'Head of SEO',
+    name: 'Анатолій',
+    title: 'Механік',
     description:
-      'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
+      'Майстер по ремонту дзеркал. Досвід у сфері 10 років.',
   },
   {
-    image: 'src/assets/team/person2.png',
-    name: 'CHRISTINA HAWKINS',
-    title: 'Head of SEO',
+    image: 'src/assets/team/person1.png',
+    name: 'Анатолій',
+    title: 'Механік',
     description:
-      'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
+      'Майстер по ремонту дзеркал. Досвід у сфері 10 років.',
   },
   {
-    image: 'src/assets/team/person3.png',
-    name: 'CHRISTINA HAWKINS',
-    title: 'Head of SEO',
+    image: 'src/assets/team/person1.png',
+    name: 'Анатолій',
+    title: 'Механік',
     description:
-      'Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.',
+      'Майстер по ремонту дзеркал. Досвід у сфері 10 років.',
   },
 ];
 </script>

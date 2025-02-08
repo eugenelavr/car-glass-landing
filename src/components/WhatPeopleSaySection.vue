@@ -8,17 +8,16 @@
       <v-row align="center">
         <v-col cols="12" md="6">
           <div class="text-h4 font-weight-medium">
-            What People Are Saying.
+            Відгуки про нас.
           </div>
 
           <div class="text-body-1 text-medium-emphasis mt-5">
-            Quis autem velis ets reprehender net etid quiste nets voluptate. Utise
-            wisi enim minim venim, quis etsad aspernatis netsum stationes nets.
+            Я дуже задоволений якістю ремонту мого дзеркала. Майстри були професійними та ввічливими, а робота була виконана швидко та акуратно. Дзеркало виглядає як нове! Рекомендую цю компанію всім, хто потребує ремонту дзеркал.
           </div>
 
           <v-row class="mt-5">
             <div
-              v-for="(item, index) in ['TrustPilot', 'Feefo']"
+              v-for="(item, index) in ['Якість ремонту', 'Ціна']"
               :key="item"
             >
               <v-alert
@@ -57,8 +56,8 @@
               <v-avatar image="https://vuetifyjs.b-cdn.net/images/john-smirk.png" />
 
               <div class="font-weight-bold text-h6">
-                John Leider /
-                <span class="text-primary">Engineer - Vuetify</span>
+                Сергій /
+                <span class="text-primary">BMW M3</span>
               </div>
             </div>
           </v-alert>

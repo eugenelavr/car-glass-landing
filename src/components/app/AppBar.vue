@@ -15,12 +15,12 @@
       <div class="hidden-sm-and-down">
         <v-btn
           v-for="item in menu"
-          :key="item"
+          :key="item.link"
           class="text-body-1 blue-grey-darken-4"
-          :href="`#${item.toLowerCase()}`"
+          :href="item.link"
           variant="text"
         >
-          {{ item }}
+          {{ item.title }}
         </v-btn>
       </div>
     </template>
@@ -31,12 +31,33 @@
 import logo from '@/assets/logo/logo.png';
 
 const menu = [
-  'Головна',
-  'Про нас',
-  'Відгуки',
-  'Роботи',
-  'Команда',
-  'Сервіс',
-  'Ціни',
+  {
+    title: 'Головна',
+    link: '#home',
+  },
+  {
+    title: 'Про нас',
+    link: '#about',
+  },
+  {
+    title: 'Відгуки',
+    link: '#testimonials',
+  },
+  {
+    title: 'Роботи',
+    link: '#work',
+  },
+  {
+    title: 'Команда',
+    link: '#team',
+  },
+  {
+    title: 'Сервіс',
+    link: '#features',
+  },
+  {
+    title: 'Ціни',
+    link: '#pricing',
+  },
 ];
 </script>

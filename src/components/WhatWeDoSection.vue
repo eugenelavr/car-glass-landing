@@ -5,7 +5,7 @@
     <div
       class="text-body-1 font-weight-regular mt-3 text-medium-emphasis mb-12"
     >
-      Discover how our amazing team can help your business.
+    Дізнайтеся, як наша команда професіоналів може допомогти вам повернути дзеркала в ідеальний стан.
     </div>
 
     <v-container>
@@ -17,7 +17,7 @@
           cols="12"
           md="4"
         >
-          <img :src="item.icon" />
+          <img :src="item.icon" class="w-75 h-50" />
 
           <div class="text-h6 mt-1">
             {{ item.title }}
@@ -35,22 +35,22 @@
 <script setup>
 const whatWeDo = [
   {
-    icon: 'src/assets/what/analytics.png',
-    title: 'Google Analitycs',
+    icon: 'src/assets/what/scratch.png',
+    title: 'Полірування та видалення подряпин',
     description:
-      'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+      'Надаємо дзеркалам нового вигляду, усуваючи подряпини та потертості.',
   },
   {
-    icon: 'src/assets/what/awareness.png',
-    title: 'Brand Awareness',
+    icon: 'src/assets/what/crack.png',
+    title: 'Ремонт тріщин і відколів',
     description:
-      'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+      'Відновлюємо пошкоджені дзеркала, щоб уникнути дорогої заміни.',
   },
   {
-    icon: 'src/assets/what/design.png',
-    title: 'Graphic Design',
+    icon: 'src/assets/what/antiglare.png',
+    title: 'Антивідблискове покриття',
     description:
-      'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+      'Захищаємо дзеркала від сонячних відблисків для комфортного водіння.',
   },
 ];
 </script>
