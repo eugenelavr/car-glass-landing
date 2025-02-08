@@ -44,21 +44,21 @@
 <script setup>
 const team = [
   {
-    image: 'src/assets/team/person1.png',
+    image: '../assets/team/person1.png',
     name: 'Анатолій',
     title: 'Механік',
     description:
       'Майстер по ремонту дзеркал. Досвід у сфері 10 років.',
   },
   {
-    image: 'src/assets/team/person1.png',
+    image: '../assets/team/person2.png',
     name: 'Анатолій',
     title: 'Механік',
     description:
       'Майстер по ремонту дзеркал. Досвід у сфері 10 років.',
   },
   {
-    image: 'src/assets/team/person1.png',
+    image: '../assets/team/person3.png',
     name: 'Анатолій',
     title: 'Механік',
     description:

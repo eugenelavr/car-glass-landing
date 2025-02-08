@@ -4,11 +4,11 @@
     class="d-flex justify-center align-center text-center flex-column"
     color="primary"
     min-height="600"
-    style="
-      background-image: url('src/assets/banner/banner_main.jpg');
-      background-size: cover;
-      background-position: center;
-    "
+    :style="{
+      backgroundImage: `url(${BannerImg})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }"
   >
     <div class="text-h3 font-weight-medium mb-5">
       <span style="color: #298abe">ProfiGlass</span>
@@ -24,3 +24,7 @@
     </div>
   </v-sheet>
 </template>
+
+<script setup>
+import BannerImg from '../assets/banner/banner_main.jpg';
+</script>
