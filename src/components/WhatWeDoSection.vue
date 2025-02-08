@@ -37,21 +37,25 @@
 </template>
 
 <script setup>
+import ScratchImg from '../assets/what/scratch.png'
+import CrackImg from '../assets/what/crack.png'
+import AntiglareImg from '../assets/what/antiglare.png'
+
 const whatWeDo = [
   {
-    icon: 'src/assets/what/scratch.png',
+    icon: `${ScratchImg}`,
     title: 'Полірування та видалення подряпин',
     description:
       'Надаємо дзеркалам нового вигляду, усуваючи подряпини та потертості.',
   },
   {
-    icon: 'src/assets/what/crack.png',
+    icon: `${CrackImg}`,
     title: 'Ремонт тріщин і відколів',
     description:
       'Відновлюємо пошкоджені дзеркала, щоб уникнути дорогої заміни.',
   },
   {
-    icon: 'src/assets/what/antiglare.png',
+    icon: `${AntiglareImg}`,
     title: 'Антивідблискове покриття',
     description:
       'Захищаємо дзеркала від сонячних відблисків для комфортного водіння.',

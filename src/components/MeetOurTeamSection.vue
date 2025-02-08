@@ -42,23 +42,25 @@
 </template>
 
 <script setup>
+import PersonImg from '../assets/team/person1.png'
+
 const team = [
   {
-    image: '../assets/team/person1.png',
+    image: `${PersonImg}`,
     name: 'Анатолій',
     title: 'Механік',
     description:
       'Майстер по ремонту дзеркал. Досвід у сфері 10 років.',
   },
   {
-    image: '../assets/team/person2.png',
+    image: `${PersonImg}`,
     name: 'Анатолій',
     title: 'Механік',
     description:
       'Майстер по ремонту дзеркал. Досвід у сфері 10 років.',
   },
   {
-    image: '../assets/team/person3.png',
+    image: `${PersonImg}`,
     name: 'Анатолій',
     title: 'Механік',
     description:
