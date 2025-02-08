@@ -7,7 +7,7 @@
     <v-container>
       <v-row align="center" class="mx-15">
         <v-col v-for="item in agency" :key="item.title" cols="12" md="3" sm="6">
-          <v-img height="56" :src="item.icon" />
+          <v-icon :icon="item.icon" size="x-large" color="white" />
 
           <div class="text-h4 font-weight-bold mt-5" style="color: #ffffff">
             {{ item.title }}
@@ -25,22 +25,22 @@
 <script setup>
 const agency = [
   {
-    icon: 'srs/assets/agency/completed.png',
+    icon: 'mdi-car-windshield-outline',
     title: '1050+',
     description: 'дзеркал, які знову радують наших клієнтів',
   },
   {
-    icon: 'src/assets/agency/heart.png',
+    icon: 'mdi-emoticon-outline',
     title: '217k',
     description: 'посмішок, які ми допомогли створити',
   },
   {
-    icon: 'src/assets/agency/awards.png',
+    icon: 'mdi-thumb-up-outline',
     title: '1210',
     description: 'позитивних відгуків від вдячних клієнтів',
   },
   {
-    icon: 'src/assets/agency/anchor.png',
+    icon: 'mdi-check-decagram-outline',
     title: '2137',
     description: 'разів ми сказали "так" складним завданням',
   },

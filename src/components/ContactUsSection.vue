@@ -1,5 +1,6 @@
 <template>
   <v-sheet
+    id="contact"
     class="text-center py-16"
     style="background-color: #298abe; color: #ffffff;"
   >
@@ -75,7 +76,7 @@
       color="white"
       flat
       height="55"
-      text="ЗВ'ЯЖІТЬСЯ"
+      text="ЗВ'ЯЗАТИСЯ"
     />
   </v-sheet>
 </template>

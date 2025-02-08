@@ -11,7 +11,10 @@
     "
   >
     <div class="text-h3 font-weight-medium mb-5">
-      <span style="color: #298abe">ProfiGlass</span> – Відновимо Дзеркала Вашого Авто До Ідеального Стану!
+      <span style="color: #298abe">ProfiGlass</span>
+    </div> 
+    <div class="text-h3 font-weight-medium mb-5">
+       Відновимо Дзеркала Вашого Авто До Ідеального Стану!
     </div>
 
     <div class="text-h6 font-weight-light mb-5" style="max-width: 468px;">

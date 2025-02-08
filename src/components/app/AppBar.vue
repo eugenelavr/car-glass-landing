@@ -4,9 +4,6 @@
       <div
         class="d-inline-flex align-center text-h4 font-weight-bold my-5 text-primary"
       >
-        <!-- <v-icon icon="$vuetify" start />
-
-        Landing Page -->
         <v-img :src="logo" width="200" />
       </div>
     </template>
@@ -56,8 +53,14 @@ const menu = [
     link: '#features',
   },
   {
-    title: 'Ціни',
-    link: '#pricing',
+    title: 'Контакти',
+    link: '#contact',
   },
 ];
 </script>
+
+<style>
+body .v-toolbar__content > .v-toolbar-title {
+  margin-inline-start: 0;
+}
+</style>
